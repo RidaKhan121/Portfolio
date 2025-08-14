@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Reeda's Portfolio</title>
+    <meta name="description" content="View Reeda's Flutter mobile apps and web development projects">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="/">Reeda</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/projects" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="main-content">
+        <!-- Projects Section -->
+        <section id="projects" class="section active">
+            <div class="container">
+                <h2 class="section-title">My Projects</h2>
+                <div class="projects-grid" id="projectsGrid">
+                    <!-- Unisync Project -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">UniSync</h3>
+                            <p class="project-description">A comprehensive university management system that synchronizes academic data, student information, and administrative processes in real-time. Features include student portal, faculty management, and real-time notifications.</p>
+                            <div class="project-technologies">
+                                <span class="technology-tag">React</span>
+                                <span class="technology-tag">Node.js</span>
+                                <span class="technology-tag">Express</span>
+                                <span class="technology-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="http://localhost:5175" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Plagiarism Checker Project -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Plagiarism Checker</h3>
+                            <p class="project-description">A comprehensive web-based plagiarism detection tool that analyzes text content and identifies potential duplicate content across multiple sources. Features advanced algorithms and detailed similarity reports.</p>
+                            <div class="project-technologies">
+                                <span class="technology-tag">HTML</span>
+                                <span class="technology-tag">CSS</span>
+                                <span class="technology-tag">JavaScript</span>
+                                <span class="technology-tag">Node.js</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-github"></i> Code
+                                </a>
+                                <a href="http://localhost:3004" target="_blank" rel="noopener noreferrer">
+                                    <i class="fas fa-external-link-alt"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2024 Reeda. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Loading Spinner -->
+    <div class="loading-spinner" id="loadingSpinner">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification"></div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
